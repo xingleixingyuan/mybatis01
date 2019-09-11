@@ -46,5 +46,7 @@ public class App
         sqlSession.commit();
         //5,关闭链接
         sqlSession.close();
+
+        System.out.println(666);
     }
 }
